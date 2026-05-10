@@ -31,14 +31,12 @@ body {
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center top; /* Keeps the bull in view if it crops */
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 12px; /* Slight rounded corners, but keeps the full shape visible */
   margin-bottom: 24px;
   display: inline-block;
-  border: 2px solid #2a2e35; /* Optional: adds a nice border around the circle */
 }
 
 h1 {
